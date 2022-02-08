@@ -1,24 +1,9 @@
 package usa;
 
+import org.springframework.stereotype.Component;
+
+@Component//what ever the class you created it is used to create beans of that object
 public class Doctor implements Staff{
-
-    private  String qualification;
-
-    public Doctor(String qualification) {
-        this.qualification = qualification;
-    }
-
-
-
-
-    public String getQualification() {
-        return qualification;
-    }
-
-    public void setQualification(String qualification) {
-        this.qualification = qualification;
-    }
-
 
     public void  assist(){
         System.out.println("Doctor is Assisting");
