@@ -5,8 +5,8 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
  <!-- bean definitions here -->
-<!--<bean id ="doctor" class="usa.Doctor">-->
- <bean id ="nurse" class="usa.Nurse">
+<bean id ="doctor" class="usa.Doctor">
+<!-- <bean id ="nurse" class="usa.Nurse">-->
 
 </bean>
 
