@@ -6,8 +6,9 @@
 
  <!-- bean definitions here -->
 <bean id ="doctor" class="usa.Doctor">
-<!-- <bean id ="nurse" class="usa.Nurse">-->
+<property name="Qualification" value="MBBS"></property>
 
 </bean>
+ <!-- <bean id ="nurse" class="usa.Nurse">-->
 
 </beans>
