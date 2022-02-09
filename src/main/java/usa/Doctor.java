@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component//what ever the class you created it is used to create beans of that object
-@Scope(scopeName = "singleton")
+@Scope(scopeName = "prototype")
 public class Doctor implements Staff{
 
     private String qualification;
