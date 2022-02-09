@@ -9,8 +9,15 @@ public class Main {
 //        ApplicationContext context=new ClassPathXmlApplicationContext("spring.xml");
         ApplicationContext context=new AnnotationConfigApplicationContext(BeanConfig.class);
 
-       Nurse staff=context.getBean(Nurse.class);
-        staff.assist();
+       Doctor doctor=context.getBean(Doctor.class);
+        doctor.assist();
+        doctor.setQualification("MBBS");
+        System.out.println(doctor);
+
+        Doctor doctor1=context.getBean(Doctor.class);
+        System.out.println(doctor1);
+
+
 
     }
 }
